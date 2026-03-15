@@ -1,0 +1,15 @@
+name: emoticon-swift
+options:
+  bundleIdPrefix: com.george
+  deploymentTarget:
+    macOS: "12.0"
+targets:
+  emoticon-swift:
+    type: application
+    platform: macOS
+    sources:
+      - Sources/emoticon-swift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.george.emoticon-swift
+        SWIFT_VERSION: 6.0

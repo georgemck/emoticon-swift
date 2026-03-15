@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:emoticon-swift}",
+            "name": "Debug emoticon-swift",
+            "target": "emoticon-swift",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug emoticon-swift"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:emoticon-swift}",
+            "name": "Release emoticon-swift",
+            "target": "emoticon-swift",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release emoticon-swift"
+        }
+    ]
+}
