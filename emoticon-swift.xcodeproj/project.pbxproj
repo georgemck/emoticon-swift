@@ -7,22 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12D5644EB21DB2FC80C6D119 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDD902F68BD56EB98DF9E6 /* ContentView.swift */; };
-		1DA911DDCCE2FA9BBC8DFE91 /* emoticon_swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA3585AF5449E2FE0F8412 /* emoticon_swift.swift */; };
+		0195F7B21BE9B668D69D1100 /* SystemColorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5CF32EB9D16F59F1E5EE3 /* SystemColorList.swift */; };
+		299B9A69E1CF316E5023F416 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDD902F68BD56EB98DF9E6 /* ContentView.swift */; };
+		449BE4B6798BB1749CCF309A /* GradientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCD42F0E63961A7E8BF08D /* GradientModel.swift */; };
+		4C31CD47F59E5F9B8E2BEF52 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A6F7EE771F990772C319E /* CanvasView.swift */; };
+		521710741A231B0910DA801C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDD902F68BD56EB98DF9E6 /* ContentView.swift */; };
+		5E5C83B82F69F474007AD868 /* ParticleVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C83B72F69F466007AD868 /* ParticleVisualizer.swift */; };
+		5E5C83B92F69F474007AD868 /* ParticleVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C83B72F69F466007AD868 /* ParticleVisualizer.swift */; };
+		5E5C83BB2F6A0CDE007AD868 /* ParticleVisualizer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C83BA2F6A0CD2007AD868 /* ParticleVisualizer2.swift */; };
+		5E5C83BC2F6A0CDE007AD868 /* ParticleVisualizer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C83BA2F6A0CD2007AD868 /* ParticleVisualizer2.swift */; };
+		5E5C83BE2F6A1922007AD868 /* ParticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C83BD2F6A1922007AD868 /* ParticleModel.swift */; };
+		5E5C83BF2F6A1922007AD868 /* ParticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C83BD2F6A1922007AD868 /* ParticleModel.swift */; };
+		5EAC5290731DFF9AC1C107AC /* GradientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82582117D38C2C2C0ED7C42E /* GradientDetailView.swift */; };
+		71D85FD884259919B86C1F1C /* SystemColorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5CF32EB9D16F59F1E5EE3 /* SystemColorList.swift */; };
+		95F9EAE17B8E6ECD312846AC /* GradientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82582117D38C2C2C0ED7C42E /* GradientDetailView.swift */; };
+		C871A43270690D4098C5409A /* GradientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCD42F0E63961A7E8BF08D /* GradientModel.swift */; };
+		CD72198B669951D51CADC438 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A6F7EE771F990772C319E /* CanvasView.swift */; };
+		EBC4D5507B8DBCAB52B8A3DD /* emoticon_swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA3585AF5449E2FE0F8412 /* emoticon_swift.swift */; };
+		EF76BA25710D4819E63DA674 /* GradientControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E92DACCC287E24F3CDAA6 /* GradientControl.swift */; };
+		F7049502C99656155A3CC2A8 /* GradientControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E92DACCC287E24F3CDAA6 /* GradientControl.swift */; };
+		FBDC86DCC5FEF9FAB1955D5F /* emoticon_swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA3585AF5449E2FE0F8412 /* emoticon_swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02CCD42F0E63961A7E8BF08D /* GradientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientModel.swift; sourceTree = "<group>"; };
 		10BA3585AF5449E2FE0F8412 /* emoticon_swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emoticon_swift.swift; sourceTree = "<group>"; };
-		38B3C01B9958030B71F0A8FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		DDEBC19AAEC1F0D345C627A0 /* emoticon-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "emoticon-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F5CF32EB9D16F59F1E5EE3 /* SystemColorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemColorList.swift; sourceTree = "<group>"; };
+		5B9E92DACCC287E24F3CDAA6 /* GradientControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientControl.swift; sourceTree = "<group>"; };
+		5E5C83B72F69F466007AD868 /* ParticleVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleVisualizer.swift; sourceTree = "<group>"; };
+		5E5C83BA2F6A0CD2007AD868 /* ParticleVisualizer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleVisualizer2.swift; sourceTree = "<group>"; };
+		5E5C83BD2F6A1922007AD868 /* ParticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleModel.swift; sourceTree = "<group>"; };
+		82582117D38C2C2C0ED7C42E /* GradientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientDetailView.swift; sourceTree = "<group>"; };
+		933C0C35F50AD919DE74D04F /* emoticon-swift-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "emoticon-swift-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02AEAD67385C305C6FFB05F /* emoticon-swift-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "emoticon-swift-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5BDD902F68BD56EB98DF9E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F63A6F7EE771F990772C319E /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		5E5C83C22F6A1DB7007AD868 /* gradient */ = {
+			isa = PBXGroup;
+			children = (
+				5B9E92DACCC287E24F3CDAA6 /* GradientControl.swift */,
+				02CCD42F0E63961A7E8BF08D /* GradientModel.swift */,
+			);
+			path = gradient;
+			sourceTree = "<group>";
+		};
+		5E5C83C72F6A1DC8007AD868 /* particle */ = {
+			isa = PBXGroup;
+			children = (
+				5E5C83BD2F6A1922007AD868 /* ParticleModel.swift */,
+			);
+			path = particle;
+			sourceTree = "<group>";
+		};
 		62C6AEF3C450DE85D817A641 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDEBC19AAEC1F0D345C627A0 /* emoticon-swift.app */,
+				933C0C35F50AD919DE74D04F /* emoticon-swift-ios.app */,
+				F02AEAD67385C305C6FFB05F /* emoticon-swift-macos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -38,9 +82,15 @@
 		F300006FEA7F936115511D43 /* emoticon-swift */ = {
 			isa = PBXGroup;
 			children = (
+				F63A6F7EE771F990772C319E /* CanvasView.swift */,
 				F5BDD902F68BD56EB98DF9E6 /* ContentView.swift */,
+				5E5C83C22F6A1DB7007AD868 /* gradient */,
 				10BA3585AF5449E2FE0F8412 /* emoticon_swift.swift */,
-				38B3C01B9958030B71F0A8FB /* Info.plist */,
+				5E5C83C72F6A1DC8007AD868 /* particle */,
+				82582117D38C2C2C0ED7C42E /* GradientDetailView.swift */,
+				5E5C83B72F69F466007AD868 /* ParticleVisualizer.swift */,
+				5E5C83BA2F6A0CD2007AD868 /* ParticleVisualizer2.swift */,
+				15F5CF32EB9D16F59F1E5EE3 /* SystemColorList.swift */,
 			);
 			name = "emoticon-swift";
 			path = "Sources/emoticon-swift";
@@ -49,21 +99,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAECFDC9EFFFAEDE84F2CCA8 /* emoticon-swift */ = {
+		09EC68B014C7CD813FDFD13F /* emoticon-swift-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C6A3CC699310EE0149C8B1A /* Build configuration list for PBXNativeTarget "emoticon-swift" */;
+			buildConfigurationList = 8AF1F943E2AB359F9C723A18 /* Build configuration list for PBXNativeTarget "emoticon-swift-ios" */;
 			buildPhases = (
-				CF05BABD8E417A8BC71EEA8E /* Sources */,
+				57A2B54F0B739422F7F94DA1 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "emoticon-swift";
+			name = "emoticon-swift-ios";
 			packageProductDependencies = (
 			);
-			productName = "emoticon-swift";
-			productReference = DDEBC19AAEC1F0D345C627A0 /* emoticon-swift.app */;
+			productName = "emoticon-swift-ios";
+			productReference = 933C0C35F50AD919DE74D04F /* emoticon-swift-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1926B1817C4361C72980647 /* emoticon-swift-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFDE46AE6DAA13D2D08D5BC /* Build configuration list for PBXNativeTarget "emoticon-swift-macos" */;
+			buildPhases = (
+				F539F28FF9CFFDA465E3EF7D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "emoticon-swift-macos";
+			packageProductDependencies = (
+			);
+			productName = "emoticon-swift-macos";
+			productReference = F02AEAD67385C305C6FFB05F /* emoticon-swift-macos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -74,8 +141,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 4DE592CD171B1F765026CC98 /* Build configuration list for PBXProject "emoticon-swift" */;
 			developmentRegion = en;
@@ -91,18 +156,44 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAECFDC9EFFFAEDE84F2CCA8 /* emoticon-swift */,
+				09EC68B014C7CD813FDFD13F /* emoticon-swift-ios */,
+				F1926B1817C4361C72980647 /* emoticon-swift-macos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CF05BABD8E417A8BC71EEA8E /* Sources */ = {
+		57A2B54F0B739422F7F94DA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12D5644EB21DB2FC80C6D119 /* ContentView.swift in Sources */,
-				1DA911DDCCE2FA9BBC8DFE91 /* emoticon_swift.swift in Sources */,
+				CD72198B669951D51CADC438 /* CanvasView.swift in Sources */,
+				521710741A231B0910DA801C /* ContentView.swift in Sources */,
+				F7049502C99656155A3CC2A8 /* GradientControl.swift in Sources */,
+				5EAC5290731DFF9AC1C107AC /* GradientDetailView.swift in Sources */,
+				5E5C83BB2F6A0CDE007AD868 /* ParticleVisualizer2.swift in Sources */,
+				449BE4B6798BB1749CCF309A /* GradientModel.swift in Sources */,
+				5E5C83B82F69F474007AD868 /* ParticleVisualizer.swift in Sources */,
+				5E5C83BE2F6A1922007AD868 /* ParticleModel.swift in Sources */,
+				0195F7B21BE9B668D69D1100 /* SystemColorList.swift in Sources */,
+				FBDC86DCC5FEF9FAB1955D5F /* emoticon_swift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F539F28FF9CFFDA465E3EF7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C31CD47F59E5F9B8E2BEF52 /* CanvasView.swift in Sources */,
+				299B9A69E1CF316E5023F416 /* ContentView.swift in Sources */,
+				EF76BA25710D4819E63DA674 /* GradientControl.swift in Sources */,
+				95F9EAE17B8E6ECD312846AC /* GradientDetailView.swift in Sources */,
+				5E5C83BC2F6A0CDE007AD868 /* ParticleVisualizer2.swift in Sources */,
+				C871A43270690D4098C5409A /* GradientModel.swift in Sources */,
+				5E5C83B92F69F474007AD868 /* ParticleVisualizer.swift in Sources */,
+				5E5C83BF2F6A1922007AD868 /* ParticleModel.swift in Sources */,
+				71D85FD884259919B86C1F1C /* SystemColorList.swift in Sources */,
+				EBC4D5507B8DBCAB52B8A3DD /* emoticon_swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,16 +245,31 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
+		};
+		4F0E4731F950E41D04846959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sources/emoticon-swift/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.george.emoticon-swift";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
 		};
 		568C3F1C6DFD30696B33F39F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -216,67 +322,99 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		737CB94CB964AFCEE1FAF580 /* Debug */ = {
+		7199A73933AD8F0C4A320F04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Sources/emoticon-swift/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 674ZGWZGPX;
+				INFOPLIST_FILE = "Sources/emoticon-swift/Info-iOS.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.george.emoticon-swift";
-				SDKROOT = macosx;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.george.emoticon-swift-ios";
+				PRODUCT_NAME = "emoticon-swift-ios";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C4E8A3C8E35CED51E7A3DFA6 /* Release */ = {
+		7F321ECD6EF861FDE5362CC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Sources/emoticon-swift/Info.plist";
+				INFOPLIST_FILE = "Sources/emoticon-swift/Info-macOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.george.emoticon-swift";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
+		DB93572197ECCE613F4A4922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 674ZGWZGPX;
+				INFOPLIST_FILE = "Sources/emoticon-swift/Info-iOS.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.george.emoticon-swift-ios";
+				PRODUCT_NAME = "emoticon-swift-ios";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C6A3CC699310EE0149C8B1A /* Build configuration list for PBXNativeTarget "emoticon-swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				737CB94CB964AFCEE1FAF580 /* Debug */,
-				C4E8A3C8E35CED51E7A3DFA6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		4DE592CD171B1F765026CC98 /* Build configuration list for PBXProject "emoticon-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				568C3F1C6DFD30696B33F39F /* Debug */,
 				2F5FE805128F9C04F31C5531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8AF1F943E2AB359F9C723A18 /* Build configuration list for PBXNativeTarget "emoticon-swift-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7199A73933AD8F0C4A320F04 /* Debug */,
+				DB93572197ECCE613F4A4922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BCFDE46AE6DAA13D2D08D5BC /* Build configuration list for PBXNativeTarget "emoticon-swift-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0E4731F950E41D04846959 /* Debug */,
+				7F321ECD6EF861FDE5362CC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
