@@ -10,9 +10,11 @@ import SwiftUI
 struct ContentView: View{
     var body: some View{
         VStack {
+            Text("Hello Symbol ")
+                .font(Font.largeTitle)
+                .navigationTitle("Hello World")
             Spacer()
                 .frame(width:200,height: 100)
-            Text("Hello Symbol ")
             Image(systemName: "arrow.down.heart")
                 .imageScale(.large)
                 .foregroundStyle(.tint)

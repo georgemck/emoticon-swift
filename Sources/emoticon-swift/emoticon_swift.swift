@@ -29,14 +29,40 @@ struct emoticon_swift: App {
 
     var body: some Scene {
         WindowGroup {
+        NavigationStack {
             VStack {
-                 ContentView()
-                // CanvasView()
-                // GradientDetailView(gradient: $gradient, gradient2color: $gradient2color)
-                // ParticleVisualizer(gradients: [gradient.gradient, gradient2color.gradient])
-                // ParticleVisualizer2(gradients: [gradient.gradient, gradient2color.gradient])
+                Spacer()
+                    .frame(height: 20)
+                NavigationLink(destination: ContentView()){
+                    Text("Hello Symbol")
+                        .font(.system(size: 40))
+                }
+                Spacer()
+                    .frame(height: 20)
+                NavigationLink(destination: CanvasView()){
+                    Text("Moving Red Oval")
+                        .font(.system(size: 40))
+                }
+                Spacer()
+                    .frame(height: 20)
+                NavigationLink(destination: GradientDetailView(gradient: $gradient, gradient2color: $gradient2color)){
+                    Text("Sunsets and Rainbows")
+                        .font(.system(size: 40))
+                }
+                Spacer()
+                    .frame(height: 20)
+                NavigationLink(destination: ParticleVisualizer(gradients: [gradient.gradient, gradient2color.gradient])){
+                    Text("Particles")
+                        .font(.system(size: 40))
+                }
+                Spacer()
+                    .frame(height: 20)
+                NavigationLink(destination: ParticleVisualizer2(gradients: [gradient.gradient, gradient2color.gradient])){
+                    Text("Touch Particles")
+                        .font(.system(size: 40))
+                }
             }
-        }
+        }}
     }
 }
 
@@ -45,3 +71,10 @@ struct emoticon_swift: App {
 //        print("Hello, world!")
 //    }
 //}
+
+
+#Preview {
+    //EmptyView()
+    ContentView()
+    //CanvasView()
+}
